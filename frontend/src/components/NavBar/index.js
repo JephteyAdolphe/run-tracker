@@ -1,5 +1,13 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavLogo} from './Navigation'
+import {FaBars} from 'react-icons/fa'
+import {
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    NavElements,
+    NavMenu,
+    NavItem,
+} from './Navigation'
 
 const Navbar = () => {
     return (
@@ -14,7 +22,7 @@ const Navbar = () => {
                     </NavElements>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about"></NavLinks>
+                            <button>test button</button>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
