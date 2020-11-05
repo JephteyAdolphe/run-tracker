@@ -1,14 +1,14 @@
 function Footer() {
     return (
+        
         <div className="footer">
             <div>
-                <a className="nav-link" href="youtube.com">
-                    <img src={require("./linkedin.png")} alt="" className="picHover"></img>
+                <a href="linkedin.com">
+                    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="" className="picHover"></img>
                 </a>
-                <a className="nav-link" href="youtube.com">
-                    <img src={require("./github.png")} alt="" className="picHover"></img>
+                <a href="https://github.com/JephteyAdolphe/run-tracker">
+                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" alt="" className="picHover"></img>
                 </a>
-                <button>djsfksf</button>
             </div>
         </div>
     )
